@@ -1,12 +1,12 @@
 {
-    "TotalCaptureTime_sec": 78.19923210144043,
-    "ProcessedFrames": 1170,
+    "TotalCaptureTime_sec": 5.206200361251831,
+    "ProcessedFrames": 47,
     "DroppedFrames": 0,
-    "FrameRate_fps": 14.961783748493467,
+    "FrameRate_fps": 9.027697118575523,
     "DropRate_percent": 0.0,
     "BlinkMetrics": {
-        "BlinkCount": 0,
-        "BlinkRate_per_min": 0.0
+        "BlinkCount": 1,
+        "BlinkRate_per_min": 11.524719725841093
     },
     "SaccadeMetrics": {
         "SaccadeCount": 0,
@@ -16,15 +16,24 @@
         "MinSaccadeAmplitude_pixels": 0
     },
     "FixationMetrics": {
-        "FixationCount": 0,
-        "AverageFixationDuration_sec": 0,
-        "MaxFixationDuration_sec": 0,
-        "MinFixationDuration_sec": 0,
-        "FixationFrequency_per_min": 0.0
+        "FixationCount": 1,
+        "AverageFixationDuration_sec": 4.735926866531372,
+        "MaxFixationDuration_sec": 4.735926866531372,
+        "MinFixationDuration_sec": 4.735926866531372,
+        "FixationFrequency_per_min": 11.524719725841093
     },
     "GazeMetrics": {
-        "LastGazeDirection": "No Face",
-        "IrisInfo": {}
+        "LastGazeDirection": "Center",
+        "IrisInfo": {
+            "left_iris_center": {
+                "x": 387.92407989501953,
+                "y": 155.56922578811646
+            },
+            "right_iris_center": {
+                "x": 450.1532516479492,
+                "y": 147.0575144290924
+            }
+        }
     },
     "Parameters": {
         "EAR_THRESHOLD": 0.2,

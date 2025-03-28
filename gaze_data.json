@@ -1,1 +1,660 @@
-[]
+[
+    {
+        "timestamp": 1743150350.9055097,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 384.9020080566406,
+                "y": 138.19029450416565
+            },
+            "right_iris_center": {
+                "x": 445.0757369995117,
+                "y": 131.49076294898987
+            }
+        }
+    },
+    {
+        "timestamp": 1743150350.9852552,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 398.0506896972656,
+                "y": 138.79158997535706
+            },
+            "right_iris_center": {
+                "x": 458.2498474121094,
+                "y": 131.1276412010193
+            }
+        }
+    },
+    {
+        "timestamp": 1743150351.0496147,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 401.3893051147461,
+                "y": 138.97311544418335
+            },
+            "right_iris_center": {
+                "x": 465.0311813354492,
+                "y": 131.23447036743164
+            }
+        }
+    },
+    {
+        "timestamp": 1743150351.110556,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 402.41070556640625,
+                "y": 137.53858423233032
+            },
+            "right_iris_center": {
+                "x": 464.2003860473633,
+                "y": 128.2190923690796
+            }
+        }
+    },
+    {
+        "timestamp": 1743150351.1547709,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 401.6368408203125,
+                "y": 138.3824543952942
+            },
+            "right_iris_center": {
+                "x": 463.0062942504883,
+                "y": 127.32544684410095
+            }
+        }
+    },
+    {
+        "timestamp": 1743150351.2034168,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 400.4618377685547,
+                "y": 137.16345477104187
+            },
+            "right_iris_center": {
+                "x": 461.7369918823242,
+                "y": 127.03322982788086
+            }
+        }
+    },
+    {
+        "timestamp": 1743150351.2484555,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 400.2024917602539,
+                "y": 137.70886373519897
+            },
+            "right_iris_center": {
+                "x": 461.32615661621094,
+                "y": 126.8006329536438
+            }
+        }
+    },
+    {
+        "timestamp": 1743150351.3086896,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 400.5078582763672,
+                "y": 138.02728915214539
+            },
+            "right_iris_center": {
+                "x": 461.7291259765625,
+                "y": 127.65228366851807
+            }
+        }
+    },
+    {
+        "timestamp": 1743150351.394882,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 399.78619384765625,
+                "y": 140.445219039917
+            },
+            "right_iris_center": {
+                "x": 460.1471633911133,
+                "y": 130.38643527030945
+            }
+        }
+    },
+    {
+        "timestamp": 1743150351.4575143,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 399.12779235839844,
+                "y": 140.801034450531
+            },
+            "right_iris_center": {
+                "x": 459.5424041748047,
+                "y": 132.05364060401917
+            }
+        }
+    },
+    {
+        "timestamp": 1743150351.5179703,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 398.5419692993164,
+                "y": 141.2803452014923
+            },
+            "right_iris_center": {
+                "x": 459.8504943847656,
+                "y": 133.27606058120728
+            }
+        }
+    },
+    {
+        "timestamp": 1743150351.5867116,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 398.83296966552734,
+                "y": 142.05931663513184
+            },
+            "right_iris_center": {
+                "x": 459.96585845947266,
+                "y": 133.6399848461151
+            }
+        }
+    },
+    {
+        "timestamp": 1743150351.647043,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 399.08753967285156,
+                "y": 142.77903056144714
+            },
+            "right_iris_center": {
+                "x": 459.13587188720703,
+                "y": 133.03100752830505
+            }
+        }
+    },
+    {
+        "timestamp": 1743150351.7161436,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 399.00646209716797,
+                "y": 143.8109471797943
+            },
+            "right_iris_center": {
+                "x": 459.04527282714844,
+                "y": 133.11801195144653
+            }
+        }
+    },
+    {
+        "timestamp": 1743150351.791691,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 399.0373077392578,
+                "y": 145.19568157196045
+            },
+            "right_iris_center": {
+                "x": 458.93397521972656,
+                "y": 133.936918258667
+            }
+        }
+    },
+    {
+        "timestamp": 1743150351.8558223,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 399.44393157958984,
+                "y": 146.30963516235352
+            },
+            "right_iris_center": {
+                "x": 457.9594268798828,
+                "y": 134.72136998176575
+            }
+        }
+    },
+    {
+        "timestamp": 1743150351.9196546,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 400.0016098022461,
+                "y": 147.37735390663147
+            },
+            "right_iris_center": {
+                "x": 458.4012451171875,
+                "y": 135.4583444595337
+            }
+        }
+    },
+    {
+        "timestamp": 1743150351.9824142,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 400.7097473144531,
+                "y": 146.82465362548828
+            },
+            "right_iris_center": {
+                "x": 459.0763168334961,
+                "y": 136.40448188781738
+            }
+        }
+    },
+    {
+        "timestamp": 1743150352.050355,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 402.4728240966797,
+                "y": 147.4676628112793
+            },
+            "right_iris_center": {
+                "x": 461.0814971923828,
+                "y": 136.89220190048218
+            }
+        }
+    },
+    {
+        "timestamp": 1743150352.1115296,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 402.5939636230469,
+                "y": 147.39778804779053
+            },
+            "right_iris_center": {
+                "x": 461.8081741333008,
+                "y": 137.36023449897766
+            }
+        }
+    },
+    {
+        "timestamp": 1743150352.174478,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 403.46375274658203,
+                "y": 147.0940568447113
+            },
+            "right_iris_center": {
+                "x": 462.59236907958984,
+                "y": 137.7745006084442
+            }
+        }
+    },
+    {
+        "timestamp": 1743150352.2554715,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 404.8282241821289,
+                "y": 145.90712141990662
+            },
+            "right_iris_center": {
+                "x": 463.35826873779297,
+                "y": 137.2794635295868
+            }
+        }
+    },
+    {
+        "timestamp": 1743150352.3183308,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 405.5718765258789,
+                "y": 143.49003911018372
+            },
+            "right_iris_center": {
+                "x": 464.0636215209961,
+                "y": 136.57861948013306
+            }
+        }
+    },
+    {
+        "timestamp": 1743150352.3884175,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 406.15877532958984,
+                "y": 141.69146990776062
+            },
+            "right_iris_center": {
+                "x": 465.2193069458008,
+                "y": 135.50102376937866
+            }
+        }
+    },
+    {
+        "timestamp": 1743150352.4445062,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 406.77315521240234,
+                "y": 143.3835768699646
+            },
+            "right_iris_center": {
+                "x": 467.3755569458008,
+                "y": 135.60715556144714
+            }
+        }
+    },
+    {
+        "timestamp": 1743150352.5120547,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 406.9627456665039,
+                "y": 147.12061500549316
+            },
+            "right_iris_center": {
+                "x": 467.20249938964844,
+                "y": 139.85614371299744
+            }
+        }
+    },
+    {
+        "timestamp": 1743150352.575709,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 403.6988220214844,
+                "y": 151.29891729354858
+            },
+            "right_iris_center": {
+                "x": 466.98978424072266,
+                "y": 144.0512924194336
+            }
+        }
+    },
+    {
+        "timestamp": 1743150352.6525035,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 403.1584777832031,
+                "y": 152.98153567314148
+            },
+            "right_iris_center": {
+                "x": 465.9686279296875,
+                "y": 146.87875485420227
+            }
+        }
+    },
+    {
+        "timestamp": 1743150352.7223933,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 401.9432601928711,
+                "y": 153.48302721977234
+            },
+            "right_iris_center": {
+                "x": 465.56888580322266,
+                "y": 147.65669417381287
+            }
+        }
+    },
+    {
+        "timestamp": 1743150352.7836945,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 401.89879608154297,
+                "y": 152.7417848110199
+            },
+            "right_iris_center": {
+                "x": 465.87935638427734,
+                "y": 147.37757062911987
+            }
+        }
+    },
+    {
+        "timestamp": 1743150352.845096,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 401.90306091308594,
+                "y": 151.5967411994934
+            },
+            "right_iris_center": {
+                "x": 466.1505889892578,
+                "y": 146.41000127792358
+            }
+        }
+    },
+    {
+        "timestamp": 1743150352.909914,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 401.5815200805664,
+                "y": 151.1739993095398
+            },
+            "right_iris_center": {
+                "x": 466.28495025634766,
+                "y": 145.55166006088257
+            }
+        }
+    },
+    {
+        "timestamp": 1743150352.9755907,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 400.9906463623047,
+                "y": 151.16777658462524
+            },
+            "right_iris_center": {
+                "x": 465.1124954223633,
+                "y": 145.3094801902771
+            }
+        }
+    },
+    {
+        "timestamp": 1743150353.042798,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 400.26988983154297,
+                "y": 151.77792763710022
+            },
+            "right_iris_center": {
+                "x": 462.71319580078125,
+                "y": 145.48761320114136
+            }
+        }
+    },
+    {
+        "timestamp": 1743150353.1196752,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 398.8949661254883,
+                "y": 152.53165197372437
+            },
+            "right_iris_center": {
+                "x": 460.2520751953125,
+                "y": 146.57569313049316
+            }
+        }
+    },
+    {
+        "timestamp": 1743150353.1820216,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 397.00941467285156,
+                "y": 151.92794036865234
+            },
+            "right_iris_center": {
+                "x": 459.33074951171875,
+                "y": 146.40029168128967
+            }
+        }
+    },
+    {
+        "timestamp": 1743150353.24374,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 395.4680709838867,
+                "y": 153.5167694091797
+            },
+            "right_iris_center": {
+                "x": 458.99170684814453,
+                "y": 146.5029194355011
+            }
+        }
+    },
+    {
+        "timestamp": 1743150353.3132598,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 394.3662872314453,
+                "y": 153.30555510520935
+            },
+            "right_iris_center": {
+                "x": 458.44725799560547,
+                "y": 146.88970255851746
+            }
+        }
+    },
+    {
+        "timestamp": 1743150353.3762794,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 393.7533721923828,
+                "y": 154.30657052993774
+            },
+            "right_iris_center": {
+                "x": 457.4965591430664,
+                "y": 147.56597113609314
+            }
+        }
+    },
+    {
+        "timestamp": 1743150353.4387782,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 393.1882629394531,
+                "y": 155.51101970672607
+            },
+            "right_iris_center": {
+                "x": 456.6408462524414,
+                "y": 148.23480892181396
+            }
+        }
+    },
+    {
+        "timestamp": 1743150353.518841,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 392.1592102050781,
+                "y": 155.49323344230652
+            },
+            "right_iris_center": {
+                "x": 455.4786834716797,
+                "y": 148.4044919013977
+            }
+        }
+    },
+    {
+        "timestamp": 1743150353.583786,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 391.1016387939453,
+                "y": 155.66117405891418
+            },
+            "right_iris_center": {
+                "x": 454.22301483154297,
+                "y": 148.42119669914246
+            }
+        }
+    },
+    {
+        "timestamp": 1743150353.6496725,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 389.7235336303711,
+                "y": 155.3276252746582
+            },
+            "right_iris_center": {
+                "x": 453.0658264160156,
+                "y": 148.1236023902893
+            }
+        }
+    },
+    {
+        "timestamp": 1743150353.7154028,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 388.80968475341797,
+                "y": 154.9013171195984
+            },
+            "right_iris_center": {
+                "x": 451.98767852783203,
+                "y": 147.70931267738342
+            }
+        }
+    },
+    {
+        "timestamp": 1743150353.7753253,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 388.4361343383789,
+                "y": 155.35083174705505
+            },
+            "right_iris_center": {
+                "x": 451.12052154541016,
+                "y": 147.6019299030304
+            }
+        }
+    },
+    {
+        "timestamp": 1743150353.8394997,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 388.1346206665039,
+                "y": 155.4650616645813
+            },
+            "right_iris_center": {
+                "x": 450.6235885620117,
+                "y": 147.34046173095703
+            }
+        }
+    },
+    {
+        "timestamp": 1743150353.9027135,
+        "gaze_direction": "Center",
+        "iris_info": {
+            "left_iris_center": {
+                "x": 387.92407989501953,
+                "y": 155.56922578811646
+            },
+            "right_iris_center": {
+                "x": 450.1532516479492,
+                "y": 147.0575144290924
+            }
+        }
+    }
+]
