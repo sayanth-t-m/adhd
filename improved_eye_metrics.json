@@ -1,37 +1,37 @@
 {
-    "TotalCaptureTime_sec": 23.6203510761261,
-    "ProcessedFrames": 344,
+    "TotalCaptureTime_sec": 41.51972699165344,
+    "ProcessedFrames": 620,
     "DroppedFrames": 0,
-    "FrameRate_fps": 14.56371240593848,
+    "FrameRate_fps": 14.93266080782844,
     "DropRate_percent": 0.0,
     "BlinkMetrics": {
-        "BlinkCount": 8,
-        "BlinkRate_per_min": 20.321459171076953
+        "BlinkCount": 9,
+        "BlinkRate_per_min": 13.005865864882834
     },
     "SaccadeMetrics": {
-        "SaccadeCount": 7,
-        "SaccadeFrequency_per_min": 17.78127677469233,
-        "AverageSaccadeAmplitude_pixels": 4.015902640278595,
-        "MaxSaccadeAmplitude_pixels": 6.690126069159331,
-        "MinSaccadeAmplitude_pixels": 1.3629001548578048
+        "SaccadeCount": 0,
+        "SaccadeFrequency_per_min": 0.0,
+        "AverageSaccadeAmplitude_pixels": 0,
+        "MaxSaccadeAmplitude_pixels": 0,
+        "MinSaccadeAmplitude_pixels": 0
     },
     "FixationMetrics": {
-        "FixationCount": 8,
-        "AverageFixationDuration_sec": 2.998589740859138,
-        "MaxFixationDuration_sec": 12.80571961402893,
-        "MinFixationDuration_sec": 0.25580501556396484,
-        "FixationFrequency_per_min": 20.321459171076953
+        "FixationCount": 1,
+        "AverageFixationDuration_sec": 25.385979175567627,
+        "MaxFixationDuration_sec": 25.385979175567627,
+        "MinFixationDuration_sec": 25.385979175567627,
+        "FixationFrequency_per_min": 1.445096207209204
     },
     "GazeMetrics": {
         "LastGazeDirection": "Center",
         "IrisInfo": {
             "left_iris_center": {
-                "x": 301.5623893737793,
-                "y": 132.70903301239014
+                "x": 298.9539260864258,
+                "y": 148.38337326049805
             },
             "right_iris_center": {
-                "x": 365.3897476196289,
-                "y": 128.6969976425171
+                "x": 325.5102005004883,
+                "y": 147.78184390068054
             }
         }
     },
