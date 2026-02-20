@@ -77,7 +77,10 @@ class ADHDTracker(QWidget):
                         self.blinks += 1
                         self.last_blink_time = time.time()
                 
-                movement = np.random.randint(1, 10)  # Placeholder for actual movement calculation
+                movement = np.linalg.norm(
+                    np.array([landmarks.part(36).x - landmarks.part(45).x,
+                               landmarks.part(36).y - landmarks.part(45).y])
+                )  # Eye span as a proxy for head/eye movement magnitude
                 self.movement_intensity.append(movement)
             
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)

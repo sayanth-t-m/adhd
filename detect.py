@@ -332,7 +332,7 @@ class EyeTrackerGUI:
                 self.fixation_durations.append(fixation_duration)
         
         # Compute additional metrics
-        total_time = time.time() - self.start_time
+        total_time = (time.time() - self.start_time) if self.start_time is not None else 0
         avg_saccade_amplitude = (sum(self.saccade_amplitudes) / len(self.saccade_amplitudes)) if self.saccade_amplitudes else 0
         avg_fixation_duration = (sum(self.fixation_durations) / len(self.fixation_durations)) if self.fixation_durations else 0
         if len(self.fixation_durations) > 5:
@@ -603,11 +603,15 @@ class EyeTrackerGUI:
         # Hide progress bar and re-enable the upload button.
         self.root.after(0, lambda: self.progress.pack_forget())
         self.root.after(0, lambda: self.upload_button.config(state=tk.NORMAL))
-        self.log("Finished processing video.")
+        self.root.after(0, lambda: self.log("Finished processing video."))
         # Automatically run classification after video processing.
-        result = classify_metrics()
-        self.log(f"Classification complete: {result}")
-        self.root.after(0, lambda: messagebox.showinfo("Classification Result", f"Final prediction: {result}"))
+        try:
+            result = classify_metrics()
+            self.root.after(0, lambda r=result: self.log(f"Classification complete: {r}"))
+            self.root.after(0, lambda r=result: messagebox.showinfo("Classification Result", f"Final prediction: {r}"))
+        except Exception as e:
+            self.root.after(0, lambda err=e: self.log(f"Classification error: {err}"))
+            self.root.after(0, lambda err=e: messagebox.showerror("Error", f"Classification error: {err}"))
 
     # --------------------- Classification Button ---------------------
     def run_classification(self):
