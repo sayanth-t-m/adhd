@@ -13,12 +13,13 @@ from dotenv import load_dotenv
 # Load environment variables (if any)
 load_dotenv()
 
-# Set the Google API key directly (for production, use environment variables)
-GOOGLE_API_KEY = "AIzaSyCZAycv__iT01dkrfRsYJNsZW0kRgWxQEA"
-genai.configure(api_key=GOOGLE_API_KEY)
+# Load Google API key from environment (never hard-code secrets)
+GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "")
+if GOOGLE_API_KEY:
+    genai.configure(api_key=GOOGLE_API_KEY)
 # Use the recommended model gemini-1.5-flash
 MODEL_NAME = 'gemini-1.5-flash'
-model = genai.GenerativeModel(MODEL_NAME)
+model = genai.GenerativeModel(MODEL_NAME) if GOOGLE_API_KEY else None
 
 DEBUG = False  # Set True for debug output
 

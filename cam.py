@@ -11,6 +11,7 @@ mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh(
     static_image_mode=False,
     max_num_faces=1,  # Focus on single face for better performance
+    refine_landmarks=True,  # Required to enable iris landmarks (indices 468-477)
     min_detection_confidence=0.7,  # Increased from 0.5
     min_tracking_confidence=0.7    # Increased from 0.5
 )
@@ -27,9 +28,9 @@ RIGHT_EYE_CONTOUR = [362, 382, 381, 380, 374, 373, 390, 249, 263, 466, 388, 387,
 LEFT_EYE_EAR = [33, 160, 158, 133, 153, 144]
 RIGHT_EYE_EAR = [362, 385, 387, 263, 373, 380]
 
-# Iris indices for gaze estimation
-LEFT_IRIS = [474, 475, 476, 477]
-RIGHT_IRIS = [469, 470, 471, 472]
+# Iris indices for gaze estimation (requires refine_landmarks=True)
+LEFT_IRIS = [468, 469, 470, 471, 472]
+RIGHT_IRIS = [473, 474, 475, 476, 477]
 
 def euclidean_distance(pt1, pt2):
     """Calculate Euclidean distance between two points."""
